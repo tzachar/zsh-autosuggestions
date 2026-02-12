@@ -100,6 +100,10 @@ Set `ZSH_AUTOSUGGEST_COMPLETION_IGNORE` to a [glob pattern](http://zsh.sourcefor
 
 **Note:** This only affects the `completion` suggestion strategy.
 
+### Do not try and match refix to suggestions
+
+Set `ZSH_AUTOSUGGEST_DONT_CHECK_PREFIX` to not try and match the prefix to the
+completion.
 
 ### Key Bindings
 
